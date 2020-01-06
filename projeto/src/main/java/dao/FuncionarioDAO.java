@@ -17,6 +17,7 @@ public class FuncionarioDAO extends RepositorioGenerico<Funcionario, Long>{
     protected EntityManager getEntityManager() {
         return em;
     }
+    
 
     public FuncionarioDAO() {
         super(Funcionario.class);
